@@ -1,0 +1,335 @@
+/* STANDAR */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background: #202020;
+  overflow-x: hidden;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+nav {
+  position: fixed;
+  z-index: 999;
+  font-family: "Merriweather", serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 120px;
+  background-color: rgb(118, 144, 124);
+}
+
+.links-buttons {
+  display: none;
+}
+
+.links-container {
+  display: flex;
+  margin-left: 30px;
+}
+
+.links-container a {
+  font-family: "Ledger";
+  color: #000000;
+  text-decoration: none;
+  font-size: 20px;
+  margin-right: 3vw;
+}
+
+.cart-button {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  right: 0;
+  margin-right: 5%;
+}
+.cart-button p {
+  font-size: 18px;
+  margin-top: 8px;
+  margin-right: 5px;
+}
+
+button {
+  margin: 0;
+  padding: 0;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+nav button i {
+  font-size: 25px;
+}
+
+/* MAIN SECTIONS */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  min-width: 260px;
+}
+
+.coffee-video {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1000;
+  object-fit: cover;
+}
+
+.logo {
+  position: absolute;
+  left: -30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: auto;
+  margin-right: 50px;
+  overflow: hidden;
+}
+
+.logo img {
+  max-width: 70%;
+  max-height: 70%;
+  width: auto;
+  height: auto;
+}
+
+.main-container {
+  background-color: rgba(39, 65, 47, 0.5);
+  height: 550px;
+  width: auto;
+  display: flex;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  background-color: rgba(67, 114, 77, 0.893);
+  margin-left: 10%;
+  padding: 5%;
+}
+
+.main h2 {
+  font-family: "Nixie One", sans-serif;
+  font-size: 50px;
+  color: salmon;
+  margin: 0;
+}
+
+.main p {
+  font-family: "Ledger", serif;
+  font-size: 20px;
+  color: #1d1d1d;
+  margin: 0;
+}
+
+/* CART */
+
+.cart-container {
+  width: 110%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cart {
+  position: fixed;
+  right: -25%;
+  height: 100vh;
+  background-color: #3e5b41;
+  transition: right 0.4s ease-out;
+}
+
+.cart.open {
+  right: 0;
+  width: 25%;
+  min-width: 350px;
+}
+
+.cart-card {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3%;
+  border: solid black;
+  height: 10vh;
+  padding: 1%;
+}
+
+.btn-delete {
+  width: 20%;
+  color: rgb(158, 49, 49);
+  border: solid red;
+}
+
+.total-price {
+  position: absolute;
+  bottom: 0;
+  background-color: #000000;
+  width: 100%;
+  height: 5vh;
+  color: salmon;
+  vertical-align: center;
+}
+
+.close-cart {
+  color: salmon;
+  margin-top: 1vh;
+  margin-left: 1vh;
+  font-size: 18px;
+}
+
+/* CARDS */
+
+.coffee-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  background-color: rgb(118, 144, 124);
+}
+
+.coffee-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 90%;
+  min-height: 100vh;
+  padding-bottom: 7%;
+}
+
+.coffee-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  min-width: 250px;
+  width: 20%;
+  height: 400px;
+  margin-left: 3%;
+  margin-top: 5%;
+  background-color: #3e5b41;
+  border: solid black 4px;
+}
+
+.coffee-card img {
+  width: 85%;
+  background-color: aliceblue;
+}
+
+.coffee-card h3 {
+  font-family: "Nixie One", sans-serif;
+  font-size: 25px;
+  color: whitesmoke;
+}
+
+.coffee-card p {
+  font-size: 20px;
+  font-family: "Merriweather", serif;
+  color: salmon;
+}
+
+.btn-add {
+  display: flex;
+  width: 50%;
+  background-color: salmon;
+  border: solid black;
+}
+
+.quantity {
+  width: 30%;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  height: 4vh;
+  color: whitesmoke;
+  margin: auto;
+}
+
+h3 {
+  color: #202020;
+}
+
+/* BREAKPOINTS */
+
+@media screen and (max-width: 767px) {
+  /* NAV */
+  .logo {
+    max-width: 150px;
+  }
+  .links-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    left: 50%;
+  }
+  .links-buttons .down {
+    font-size: 15px;
+  }
+
+  .links-container {
+    display: none;
+  }
+
+  .links-container.active {
+    position: absolute;
+    z-index: 998;
+    bottom: -83px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 100px;
+    background-color: rgba(118, 144, 124, 0.568);
+    border: solid salmon;
+    border-top: none;
+    animation: salida 0.2s forwards;
+  }
+
+  @keyframes salida {
+    from {
+      bottom: -40px;
+    }
+    to {
+      bottom: -100px;
+    }
+  }
+
+  .links-container a {
+    margin: 0;
+  }
+
+  .main-container {
+    background-color: transparent;
+  }
+  .main {
+    width: 100%;
+    margin: 0;
+  }
+
+  .main h2 {
+    font-size: 10vw;
+  }
+  .main p {
+    font-size: 3vw;
+  }
+}
