@@ -1,5 +1,5 @@
 import CoffeeCard from "../components/CoffeeCard";
-import Main from "../components/main";
+import Main from "../components/Main";
 import BackgroundVideo from "../components/BackgroundVideo";
 
 export default function Home({ data, setUpdateCart }) {
