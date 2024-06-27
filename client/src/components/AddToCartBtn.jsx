@@ -1,11 +1,13 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { AddToCart } from "../api/coffee.api";
 
-const AddToCartBtn = ({ data, handleRender }) => {
+const AddToCartBtn = ({ data, handleRender, setUpdateCart }) => {
   const [quantity, setQuantity] = useState(1);
   // const [getCart, setGetCart] = useState(second);
 
   const handleAddToCart = async () => {
+    handleRender();
+
     try {
       const res = await AddToCart({
         coffee: data.id,
@@ -15,9 +17,6 @@ const AddToCartBtn = ({ data, handleRender }) => {
     } catch (error) {
       console.error("Error al agregar al carrito:", error);
     }
-
-    // const res = await AddToCart();
-    // console.log(res.data[0].coffee.price);
   };
 
   return (
@@ -34,7 +33,6 @@ const AddToCartBtn = ({ data, handleRender }) => {
           className="btn"
           onClick={() => {
             handleAddToCart();
-            handleRender();
           }}
         >
           <i className="fa-solid fa-bag-shopping"></i>

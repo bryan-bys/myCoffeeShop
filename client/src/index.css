@@ -150,6 +150,7 @@ nav button i {
 
 .cart {
   position: fixed;
+  z-index: 999;
   right: -25%;
   height: 100vh;
   background-color: #3e5b41;

@@ -37,23 +37,6 @@ export function App() {
     setUpdateCart(false);
   }, [updateCart]);
 
-  const handleRender = () => {
-    setUpdateCart(true);
-  };
-
-  const handleDelete = (data) => {
-    const confirmacion = window.confirm(
-      "Esta seguro de eliminar este elemento del carrito"
-    );
-
-    if (confirmacion) {
-      deleteItem(data);
-      setUpdateCart(true);
-    } else {
-      return;
-    }
-  };
-
   return (
     <>
       <div className="container">
@@ -71,7 +54,7 @@ export function App() {
               className="links-buttons"
             >
               <i className="fa-solid fa-bars"></i>
-              <i class="fa-solid fa-chevron-down down"></i>
+              <i className="fa-solid fa-chevron-down down"></i>
             </button>
             <div
               onClick={() => {
@@ -102,7 +85,7 @@ export function App() {
             <Route
               path="/"
               element={
-                <Home handleRender={handleRender} data={homeCoffeeData} />
+                <Home setUpdateCart={setUpdateCart} data={homeCoffeeData} />
               }
             />
           </Routes>
@@ -112,7 +95,7 @@ export function App() {
           closeCart={closeCart}
           visible={visible}
           data={cartData}
-          handleDelete={handleDelete}
+          setUpdateCart={setUpdateCart}
           itemCartId={setItemCartId}
         />
       </div>

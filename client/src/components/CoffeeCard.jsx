@@ -1,7 +1,10 @@
-import { useState, useEffect } from "react";
 import AddToCartBtn from "./AddToCartBtn";
 
-const CoffeeCard = ({ data, handleRender }) => {
+const CoffeeCard = ({ data, setUpdateCart }) => {
+  const handleRender = () => {
+    setUpdateCart(true);
+  };
+
   return (
     <>
       <div className="coffee-container">
@@ -13,7 +16,11 @@ const CoffeeCard = ({ data, handleRender }) => {
               <p>Origen: {coffee.origyn}</p>
               <p>Intensidad: {coffee.intensity}</p>
               <p>€ {coffee.price} - 500g</p>
-              <AddToCartBtn handleRender={handleRender} data={coffee} />
+              <AddToCartBtn
+                setUpdateCart={setUpdateCart}
+                handleRender={handleRender}
+                data={coffee}
+              />
             </div>
           ))}
         </div>

@@ -1,0 +1,2477 @@
+[
+  {
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+      "action_time": "2023-10-31T18:50:23.024Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "1",
+      "object_repr": "asdsac",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+      "action_time": "2023-10-31T18:50:33.252Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "1",
+      "object_repr": "asdsac",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+      "action_time": "2023-11-23T19:03:25.156Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "2",
+      "object_repr": "colombia coffe",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+      "action_time": "2023-11-23T19:03:56.325Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "3",
+      "object_repr": "brasil coffee",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+      "action_time": "2023-11-23T19:34:26.953Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "2",
+      "object_repr": "colombia coffee",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+      "action_time": "2023-11-24T19:53:00.445Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "3",
+      "object_repr": "brasil coffee",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Tipo\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+      "action_time": "2023-11-24T20:08:35.716Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "3",
+      "object_repr": "brasil coffee",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Tipo\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+      "action_time": "2023-11-24T20:36:07.085Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "4",
+      "object_repr": "cuba coffe",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+      "action_time": "2023-11-27T16:54:56.381Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "4",
+      "object_repr": "cuba coffe",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Price\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+      "action_time": "2023-11-30T17:57:35.711Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "5",
+      "object_repr": "cuba coffe",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 11,
+    "fields": {
+      "action_time": "2023-11-30T18:08:36.021Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "1",
+      "object_repr": "2 x brasil coffee",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 12,
+    "fields": {
+      "action_time": "2023-11-30T18:08:44.431Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "1",
+      "object_repr": "2 x brasil coffee",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 13,
+    "fields": {
+      "action_time": "2023-11-30T18:12:36.761Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "2",
+      "object_repr": "2 x colombia coffee",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 14,
+    "fields": {
+      "action_time": "2023-11-30T18:12:59.673Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "3",
+      "object_repr": "1 x brasil coffee",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 15,
+    "fields": {
+      "action_time": "2023-11-30T18:13:45.413Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "3",
+      "object_repr": "1 x brasil coffee",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 16,
+    "fields": {
+      "action_time": "2023-11-30T18:13:45.423Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "2",
+      "object_repr": "2 x colombia coffee",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 17,
+    "fields": {
+      "action_time": "2023-11-30T18:13:52.723Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "4",
+      "object_repr": "1 x cuba coffe",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 18,
+    "fields": {
+      "action_time": "2023-11-30T18:14:00.648Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "5",
+      "object_repr": "1 x brasil coffee",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 19,
+    "fields": {
+      "action_time": "2023-11-30T18:15:55.960Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "5",
+      "object_repr": "1 x brasil coffee",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 20,
+    "fields": {
+      "action_time": "2023-11-30T18:15:56.008Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "4",
+      "object_repr": "1 x cuba coffe",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 21,
+    "fields": {
+      "action_time": "2023-11-30T18:16:00.900Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "6",
+      "object_repr": "1 x colombia coffee",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 22,
+    "fields": {
+      "action_time": "2023-11-30T18:16:09.766Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "7",
+      "object_repr": "1 x cuba coffe",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 23,
+    "fields": {
+      "action_time": "2023-11-30T18:16:20.832Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "7",
+      "object_repr": "1 x cuba coffe",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 24,
+    "fields": {
+      "action_time": "2023-11-30T18:16:26.979Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "6",
+      "object_repr": "1 x colombia coffee",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 25,
+    "fields": {
+      "action_time": "2023-11-30T18:16:58.049Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "8",
+      "object_repr": "1 x colombia coffee",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 26,
+    "fields": {
+      "action_time": "2023-11-30T18:17:02.320Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "8",
+      "object_repr": "1 x colombia coffee",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 27,
+    "fields": {
+      "action_time": "2023-11-30T18:18:03.584Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "4",
+      "object_repr": "cuba coffe",
+      "action_flag": 2,
+      "change_message": "[]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 28,
+    "fields": {
+      "action_time": "2023-11-30T18:52:53.598Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "3",
+      "object_repr": "brasil coffee",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Price\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 29,
+    "fields": {
+      "action_time": "2023-11-30T18:53:01.282Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "2",
+      "object_repr": "colombia coffee",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Price\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 30,
+    "fields": {
+      "action_time": "2023-11-30T18:56:16.893Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "9",
+      "object_repr": "1 x colombia coffee",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 31,
+    "fields": {
+      "action_time": "2023-11-30T18:56:23.837Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "10",
+      "object_repr": "1 x cuba coffe",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 32,
+    "fields": {
+      "action_time": "2023-12-02T02:33:20.435Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "13",
+      "object_repr": "1 x b",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 33,
+    "fields": {
+      "action_time": "2023-12-02T02:33:20.479Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "12",
+      "object_repr": "1 x spain coffee",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 34,
+    "fields": {
+      "action_time": "2023-12-02T02:33:20.490Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "11",
+      "object_repr": "1 x spain coffee",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 35,
+    "fields": {
+      "action_time": "2023-12-02T02:46:19.336Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "15",
+      "object_repr": "5 x spain coffee",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 36,
+    "fields": {
+      "action_time": "2023-12-02T02:46:19.376Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "14",
+      "object_repr": "1 x colombia coffee",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 37,
+    "fields": {
+      "action_time": "2023-12-02T02:46:44.380Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "10",
+      "object_repr": "spain coffee",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 38,
+    "fields": {
+      "action_time": "2023-12-02T02:46:44.388Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "8",
+      "object_repr": "b",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 39,
+    "fields": {
+      "action_time": "2023-12-02T02:46:44.397Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "7",
+      "object_repr": "spain coffee",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 40,
+    "fields": {
+      "action_time": "2023-12-02T02:46:44.397Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "6",
+      "object_repr": "spain coffee",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 41,
+    "fields": {
+      "action_time": "2023-12-02T02:46:44.413Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "2",
+      "object_repr": "colombia coffee",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 42,
+    "fields": {
+      "action_time": "2023-12-02T03:32:31.398Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "13",
+      "object_repr": "b",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 43,
+    "fields": {
+      "action_time": "2023-12-04T17:29:11.742Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "13",
+      "object_repr": "b",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 44,
+    "fields": {
+      "action_time": "2023-12-04T17:29:11.747Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "12",
+      "object_repr": "brasil coffee",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 45,
+    "fields": {
+      "action_time": "2023-12-04T17:29:11.752Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "11",
+      "object_repr": "cuba coffe",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 46,
+    "fields": {
+      "action_time": "2023-12-04T17:37:50.216Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "16",
+      "object_repr": "ShoppingCart object (16)",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 47,
+    "fields": {
+      "action_time": "2023-12-04T17:37:50.220Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "10",
+      "object_repr": "ShoppingCart object (10)",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 48,
+    "fields": {
+      "action_time": "2023-12-04T18:20:21.329Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "17",
+      "object_repr": "ShoppingCart object (17)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 49,
+    "fields": {
+      "action_time": "2023-12-04T18:20:36.525Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "1",
+      "object_repr": "ItemCart object (1)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 50,
+    "fields": {
+      "action_time": "2023-12-04T18:21:04.857Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "17",
+      "object_repr": "ShoppingCart object (17)",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 51,
+    "fields": {
+      "action_time": "2023-12-04T18:21:09.121Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "18",
+      "object_repr": "ShoppingCart object (18)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 52,
+    "fields": {
+      "action_time": "2023-12-05T17:26:21.115Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "2",
+      "object_repr": "ItemCart object (2)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 53,
+    "fields": {
+      "action_time": "2023-12-05T17:26:35.543Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "2",
+      "object_repr": "ItemCart object (2)",
+      "action_flag": 2,
+      "change_message": "[]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 54,
+    "fields": {
+      "action_time": "2023-12-05T17:26:42.374Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "3",
+      "object_repr": "ItemCart object (3)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 55,
+    "fields": {
+      "action_time": "2023-12-05T17:26:52.809Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "18",
+      "object_repr": "ShoppingCart object (18)",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 56,
+    "fields": {
+      "action_time": "2023-12-05T17:27:06.789Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "19",
+      "object_repr": "ShoppingCart object (19)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 57,
+    "fields": {
+      "action_time": "2023-12-05T17:33:20.153Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "4",
+      "object_repr": "ItemCart object (4)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 58,
+    "fields": {
+      "action_time": "2023-12-05T23:53:19.813Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "1",
+      "object_repr": "CartItem object (1)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 59,
+    "fields": {
+      "action_time": "2023-12-06T00:05:31.048Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "14",
+      "object_repr": "b",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 60,
+    "fields": {
+      "action_time": "2023-12-06T00:28:01.787Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "2",
+      "object_repr": "b-1",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 61,
+    "fields": {
+      "action_time": "2023-12-06T01:34:17.820Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "3",
+      "object_repr": "cuba coffe-1",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 62,
+    "fields": {
+      "action_time": "2023-12-07T02:34:34.592Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "6",
+      "object_repr": "cuba coffe-1",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 63,
+    "fields": {
+      "action_time": "2023-12-07T02:34:34.605Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "5",
+      "object_repr": "colombia coffee-1",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 64,
+    "fields": {
+      "action_time": "2023-12-07T02:34:34.605Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "4",
+      "object_repr": "colombia coffee-1",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 65,
+    "fields": {
+      "action_time": "2023-12-07T02:34:34.613Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "3",
+      "object_repr": "cuba coffe-1",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 66,
+    "fields": {
+      "action_time": "2023-12-07T02:34:34.623Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "2",
+      "object_repr": "b-1",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 67,
+    "fields": {
+      "action_time": "2023-12-07T02:34:34.623Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "1",
+      "object_repr": "brasil coffee-1",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 68,
+    "fields": {
+      "action_time": "2023-12-07T02:34:43.347Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "14",
+      "object_repr": "b",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 69,
+    "fields": {
+      "action_time": "2023-12-07T02:34:53.668Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "7",
+      "object_repr": "brasil coffee-1",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 70,
+    "fields": {
+      "action_time": "2023-12-07T03:01:25.378Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "9",
+      "object_repr": "cuba coffe-1",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 71,
+    "fields": {
+      "action_time": "2023-12-07T03:01:25.416Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "8",
+      "object_repr": "colombia coffee-2",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 72,
+    "fields": {
+      "action_time": "2023-12-07T03:01:25.424Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "7",
+      "object_repr": "brasil coffee-1",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 73,
+    "fields": {
+      "action_time": "2023-12-12T22:31:54.859Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "13",
+      "object_repr": "colombia coffee-1",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 74,
+    "fields": {
+      "action_time": "2023-12-12T22:31:54.878Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "12",
+      "object_repr": "colombia coffee-2",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 75,
+    "fields": {
+      "action_time": "2023-12-12T22:31:54.886Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "11",
+      "object_repr": "brasil coffee-2",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 76,
+    "fields": {
+      "action_time": "2023-12-12T22:31:54.892Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "10",
+      "object_repr": "brasil coffee-1",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 77,
+    "fields": {
+      "action_time": "2023-12-17T07:32:25.333Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "4",
+      "object_repr": "cuba coffe",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 78,
+    "fields": {
+      "action_time": "2023-12-17T07:34:10.076Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "9",
+      "object_repr": "colombia coffee",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 79,
+    "fields": {
+      "action_time": "2023-12-17T07:35:19.699Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "4",
+      "object_repr": "cuba coffe",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 80,
+    "fields": {
+      "action_time": "2023-12-20T16:49:03.156Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "4",
+      "object_repr": "cuba coffe",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 81,
+    "fields": {
+      "action_time": "2023-12-20T16:49:09.022Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "4",
+      "object_repr": "cuba coffe",
+      "action_flag": 2,
+      "change_message": "[]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 82,
+    "fields": {
+      "action_time": "2023-12-20T16:49:18.135Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "3",
+      "object_repr": "brasil coffee",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 83,
+    "fields": {
+      "action_time": "2023-12-20T16:58:03.179Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "10",
+      "object_repr": "etipia",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 84,
+    "fields": {
+      "action_time": "2023-12-23T03:00:11.600Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "11",
+      "object_repr": "nicaragua",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 85,
+    "fields": {
+      "action_time": "2023-12-23T03:00:40.343Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "9",
+      "object_repr": "colombia coffee",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Tipo\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 86,
+    "fields": {
+      "action_time": "2023-12-23T03:00:50.440Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "4",
+      "object_repr": "cuba coffe",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Tipo\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 87,
+    "fields": {
+      "action_time": "2023-12-23T03:00:58.213Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "3",
+      "object_repr": "brasil coffee",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Tipo\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 88,
+    "fields": {
+      "action_time": "2023-12-29T02:53:37.892Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "19",
+      "object_repr": "nicaragua-1",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 89,
+    "fields": {
+      "action_time": "2023-12-29T02:53:37.928Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "18",
+      "object_repr": "etipia-1",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 90,
+    "fields": {
+      "action_time": "2023-12-29T02:53:37.944Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "17",
+      "object_repr": "etipia-1",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 91,
+    "fields": {
+      "action_time": "2023-12-29T02:53:37.947Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "16",
+      "object_repr": "cuba coffe-1",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 92,
+    "fields": {
+      "action_time": "2023-12-29T02:53:37.961Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "15",
+      "object_repr": "colombia coffee-2",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 93,
+    "fields": {
+      "action_time": "2023-12-29T02:53:37.961Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "14",
+      "object_repr": "brasil coffee-1",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 94,
+    "fields": {
+      "action_time": "2023-12-29T02:57:04.318Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "20",
+      "object_repr": "colombia coffee-1",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 95,
+    "fields": {
+      "action_time": "2023-12-29T03:11:55.038Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "21",
+      "object_repr": "colombia coffee-5",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 96,
+    "fields": {
+      "action_time": "2023-12-29T03:40:51.141Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "26",
+      "object_repr": "nicaragua-1",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 97,
+    "fields": {
+      "action_time": "2023-12-29T03:40:51.191Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "25",
+      "object_repr": "etipia-2",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 98,
+    "fields": {
+      "action_time": "2023-12-29T03:40:51.191Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "24",
+      "object_repr": "colombia coffee-5",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 99,
+    "fields": {
+      "action_time": "2023-12-29T03:40:51.206Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "23",
+      "object_repr": "cuba coffe-1",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 100,
+    "fields": {
+      "action_time": "2023-12-29T03:40:51.208Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "22",
+      "object_repr": "brasil coffee-1",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 101,
+    "fields": {
+      "action_time": "2023-12-29T04:18:15.240Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "30",
+      "object_repr": "cuba coffe-2",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 102,
+    "fields": {
+      "action_time": "2023-12-29T04:18:15.277Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "29",
+      "object_repr": "nicaragua-2",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 103,
+    "fields": {
+      "action_time": "2023-12-29T04:18:15.292Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "28",
+      "object_repr": "etipia-1",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 104,
+    "fields": {
+      "action_time": "2023-12-29T04:18:15.295Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "27",
+      "object_repr": "brasil coffee-1",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 105,
+    "fields": {
+      "action_time": "2024-01-05T02:33:25.258Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "10",
+      "object_repr": "Yirgacheffe",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Name\", \"Origyn\", \"Intensity\", \"Price\", \"Image\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 106,
+    "fields": {
+      "action_time": "2024-01-05T02:35:29.923Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "9",
+      "object_repr": "Juan Valdez",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Name\", \"Intensity\", \"Image\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 107,
+    "fields": {
+      "action_time": "2024-01-05T02:39:17.423Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "3",
+      "object_repr": "Caf� Santos",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Name\", \"Tipo\", \"Origyn\", \"Intensity\", \"Price\", \"Image\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 108,
+    "fields": {
+      "action_time": "2024-01-05T02:39:30.270Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "9",
+      "object_repr": "Juan Valdez",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Origyn\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 109,
+    "fields": {
+      "action_time": "2024-01-05T02:41:34.160Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "11",
+      "object_repr": "Coffea canephora",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Name\", \"Tipo\", \"Origyn\", \"Intensity\", \"Price\", \"Image\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 110,
+    "fields": {
+      "action_time": "2024-01-05T02:43:06.537Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "4",
+      "object_repr": "Mocha Yemen",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Name\", \"Tipo\", \"Origyn\", \"Intensity\", \"Price\", \"Image\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 111,
+    "fields": {
+      "action_time": "2024-01-05T02:44:07.162Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "12",
+      "object_repr": "Antigua",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 112,
+    "fields": {
+      "action_time": "2024-01-05T02:45:09.728Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "13",
+      "object_repr": "Altura Chiapas",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 113,
+    "fields": {
+      "action_time": "2024-01-05T02:46:19.617Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "14",
+      "object_repr": "Kenya AA",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 114,
+    "fields": {
+      "action_time": "2024-01-05T02:47:54.044Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "15",
+      "object_repr": "Geisha",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 115,
+    "fields": {
+      "action_time": "2024-01-05T02:48:40.159Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "16",
+      "object_repr": "\"Blue Mountain Coffee",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 116,
+    "fields": {
+      "action_time": "2024-01-05T02:49:37.166Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "17",
+      "object_repr": "Tarraz�",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 117,
+    "fields": {
+      "action_time": "2024-01-05T02:54:20.508Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "17",
+      "object_repr": "TARRAZU",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 118,
+    "fields": {
+      "action_time": "2024-01-05T02:55:02.144Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "16",
+      "object_repr": "BLUE MOUNTAIN COFFEE",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Name\", \"Origyn\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 119,
+    "fields": {
+      "action_time": "2024-01-05T02:56:07.732Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "16",
+      "object_repr": "Blue Mountain Coffee",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Name\", \"Origyn\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 120,
+    "fields": {
+      "action_time": "2024-01-05T02:56:16.659Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "17",
+      "object_repr": "Tarraz�",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 121,
+    "fields": {
+      "action_time": "2024-01-05T02:56:56.227Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "9",
+      "object_repr": "Excelso",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 122,
+    "fields": {
+      "action_time": "2024-01-05T03:46:48.707Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "18",
+      "object_repr": "Excelso",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 123,
+    "fields": {
+      "action_time": "2024-01-05T03:47:33.481Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "19",
+      "object_repr": "Caf� Santos",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 124,
+    "fields": {
+      "action_time": "2024-01-05T03:48:15.333Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "20",
+      "object_repr": "Antigua",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 125,
+    "fields": {
+      "action_time": "2024-01-05T03:48:53.340Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "21",
+      "object_repr": "Altura Chiapas",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 126,
+    "fields": {
+      "action_time": "2024-01-05T03:49:45.307Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "22",
+      "object_repr": "Geisha",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 127,
+    "fields": {
+      "action_time": "2024-01-05T03:50:13.224Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "23",
+      "object_repr": "Blue Mountain Coffee",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 128,
+    "fields": {
+      "action_time": "2024-01-05T04:03:58.043Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "23",
+      "object_repr": "Blue Mountain Coffee",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 129,
+    "fields": {
+      "action_time": "2024-01-05T04:04:05.969Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "22",
+      "object_repr": "Geisha",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 130,
+    "fields": {
+      "action_time": "2024-01-05T04:04:14.068Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "21",
+      "object_repr": "Altura Chiapas",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 131,
+    "fields": {
+      "action_time": "2024-01-05T04:04:21.686Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "20",
+      "object_repr": "Antigua",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 132,
+    "fields": {
+      "action_time": "2024-01-05T04:04:29.561Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "19",
+      "object_repr": "Caf� Santos",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 133,
+    "fields": {
+      "action_time": "2024-01-05T04:04:37.248Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "18",
+      "object_repr": "Excelso",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 1,
+    "fields": {
+      "name": "Can add log entry",
+      "content_type": 1,
+      "codename": "add_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 2,
+    "fields": {
+      "name": "Can change log entry",
+      "content_type": 1,
+      "codename": "change_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 3,
+    "fields": {
+      "name": "Can delete log entry",
+      "content_type": 1,
+      "codename": "delete_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 4,
+    "fields": {
+      "name": "Can view log entry",
+      "content_type": 1,
+      "codename": "view_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 5,
+    "fields": {
+      "name": "Can add permission",
+      "content_type": 2,
+      "codename": "add_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 6,
+    "fields": {
+      "name": "Can change permission",
+      "content_type": 2,
+      "codename": "change_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 7,
+    "fields": {
+      "name": "Can delete permission",
+      "content_type": 2,
+      "codename": "delete_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 8,
+    "fields": {
+      "name": "Can view permission",
+      "content_type": 2,
+      "codename": "view_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 9,
+    "fields": {
+      "name": "Can add group",
+      "content_type": 3,
+      "codename": "add_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 10,
+    "fields": {
+      "name": "Can change group",
+      "content_type": 3,
+      "codename": "change_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 11,
+    "fields": {
+      "name": "Can delete group",
+      "content_type": 3,
+      "codename": "delete_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 12,
+    "fields": {
+      "name": "Can view group",
+      "content_type": 3,
+      "codename": "view_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 13,
+    "fields": {
+      "name": "Can add user",
+      "content_type": 4,
+      "codename": "add_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 14,
+    "fields": {
+      "name": "Can change user",
+      "content_type": 4,
+      "codename": "change_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 15,
+    "fields": {
+      "name": "Can delete user",
+      "content_type": 4,
+      "codename": "delete_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 16,
+    "fields": {
+      "name": "Can view user",
+      "content_type": 4,
+      "codename": "view_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 17,
+    "fields": {
+      "name": "Can add content type",
+      "content_type": 5,
+      "codename": "add_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 18,
+    "fields": {
+      "name": "Can change content type",
+      "content_type": 5,
+      "codename": "change_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 19,
+    "fields": {
+      "name": "Can delete content type",
+      "content_type": 5,
+      "codename": "delete_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 20,
+    "fields": {
+      "name": "Can view content type",
+      "content_type": 5,
+      "codename": "view_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 21,
+    "fields": {
+      "name": "Can add session",
+      "content_type": 6,
+      "codename": "add_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 22,
+    "fields": {
+      "name": "Can change session",
+      "content_type": 6,
+      "codename": "change_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 23,
+    "fields": {
+      "name": "Can delete session",
+      "content_type": 6,
+      "codename": "delete_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 24,
+    "fields": {
+      "name": "Can view session",
+      "content_type": 6,
+      "codename": "view_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 25,
+    "fields": {
+      "name": "Can add coffee",
+      "content_type": 7,
+      "codename": "add_coffee"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 26,
+    "fields": {
+      "name": "Can change coffee",
+      "content_type": 7,
+      "codename": "change_coffee"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 27,
+    "fields": {
+      "name": "Can delete coffee",
+      "content_type": 7,
+      "codename": "delete_coffee"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 28,
+    "fields": {
+      "name": "Can view coffee",
+      "content_type": 7,
+      "codename": "view_coffee"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 29,
+    "fields": {
+      "name": "Can add coffeecaps",
+      "content_type": 8,
+      "codename": "add_coffeecaps"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 30,
+    "fields": {
+      "name": "Can change coffeecaps",
+      "content_type": 8,
+      "codename": "change_coffeecaps"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 31,
+    "fields": {
+      "name": "Can delete coffeecaps",
+      "content_type": 8,
+      "codename": "delete_coffeecaps"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 32,
+    "fields": {
+      "name": "Can view coffeecaps",
+      "content_type": 8,
+      "codename": "view_coffeecaps"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 33,
+    "fields": {
+      "name": "Can add shopping cart",
+      "content_type": 9,
+      "codename": "add_shoppingcart"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 34,
+    "fields": {
+      "name": "Can change shopping cart",
+      "content_type": 9,
+      "codename": "change_shoppingcart"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 35,
+    "fields": {
+      "name": "Can delete shopping cart",
+      "content_type": 9,
+      "codename": "delete_shoppingcart"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 36,
+    "fields": {
+      "name": "Can view shopping cart",
+      "content_type": 9,
+      "codename": "view_shoppingcart"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 37,
+    "fields": {
+      "name": "Can add item cart",
+      "content_type": 10,
+      "codename": "add_itemcart"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 38,
+    "fields": {
+      "name": "Can change item cart",
+      "content_type": 10,
+      "codename": "change_itemcart"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 39,
+    "fields": {
+      "name": "Can delete item cart",
+      "content_type": 10,
+      "codename": "delete_itemcart"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 40,
+    "fields": {
+      "name": "Can view item cart",
+      "content_type": 10,
+      "codename": "view_itemcart"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 41,
+    "fields": {
+      "name": "Can add cart item",
+      "content_type": 11,
+      "codename": "add_cartitem"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 42,
+    "fields": {
+      "name": "Can change cart item",
+      "content_type": 11,
+      "codename": "change_cartitem"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 43,
+    "fields": {
+      "name": "Can delete cart item",
+      "content_type": 11,
+      "codename": "delete_cartitem"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 44,
+    "fields": {
+      "name": "Can view cart item",
+      "content_type": 11,
+      "codename": "view_cartitem"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+      "password": "pbkdf2_sha256$600000$PqSao766hd9PDxs4FvTZoa$i80GAmGzDEm1nd5lefxpGEt9zxv8PSVnweDYwwJV/rE=",
+      "last_login": "2024-02-19T18:01:03.026Z",
+      "is_superuser": true,
+      "username": "bryan",
+      "first_name": "",
+      "last_name": "",
+      "email": "bryanmm212@gmail.com",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2023-10-31T18:43:08.307Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 1,
+    "fields": { "app_label": "admin", "model": "logentry" }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 2,
+    "fields": { "app_label": "auth", "model": "permission" }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 3,
+    "fields": { "app_label": "auth", "model": "group" }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 4,
+    "fields": { "app_label": "auth", "model": "user" }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 5,
+    "fields": { "app_label": "contenttypes", "model": "contenttype" }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 6,
+    "fields": { "app_label": "sessions", "model": "session" }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 7,
+    "fields": { "app_label": "coffee", "model": "coffee" }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 8,
+    "fields": { "app_label": "coffee", "model": "coffeecaps" }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 9,
+    "fields": { "app_label": "coffee", "model": "shoppingcart" }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 10,
+    "fields": { "app_label": "coffee", "model": "itemcart" }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 11,
+    "fields": { "app_label": "coffee", "model": "cartitem" }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "grkexg9j0xrqore2gmfbz5tiq3vizi2t",
+    "fields": {
+      "session_data": ".eJxVjDsOwjAQBe_iGln-rLM2JX3OYK0_wQFkS3FSIe5OIqWA9s3MezNP21r81vPi58SuTLLL7xYoPnM9QHpQvTceW12XOfBD4SftfGwpv26n-3dQqJe9VlYBghMGNGmXk0UEJSbE5EhIJDBRGSEnFwiEUAOgdjtKoGzGATT7fAGfpzYs:1qxtjf:Mr-2a-9G397_lmTBVK1bdo61jMhiOoeXIAzTJIcZoW0",
+      "expire_date": "2023-11-14T18:45:07.130Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "id0kbgut5tk3o8oae2tltti0pio6go19",
+    "fields": {
+      "session_data": ".eJxVjDsOwjAQBe_iGln-rLM2JX3OYK0_wQFkS3FSIe5OIqWA9s3MezNP21r81vPi58SuTLLL7xYoPnM9QHpQvTceW12XOfBD4SftfGwpv26n-3dQqJe9VlYBghMGNGmXk0UEJSbE5EhIJDBRGSEnFwiEUAOgdjtKoGzGATT7fAGfpzYs:1rc7wt:Hqx8bM0ZQNoRb7gardg9bMna7hFMBrn5urtP5HLCptM",
+      "expire_date": "2024-03-04T18:01:03.045Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "l6lmf940pljks4qaukcf93gdiwot65l4",
+    "fields": {
+      "session_data": ".eJxVjDsOwjAQBe_iGln-rLM2JX3OYK0_wQFkS3FSIe5OIqWA9s3MezNP21r81vPi58SuTLLL7xYoPnM9QHpQvTceW12XOfBD4SftfGwpv26n-3dQqJe9VlYBghMGNGmXk0UEJSbE5EhIJDBRGSEnFwiEUAOgdjtKoGzGATT7fAGfpzYs:1rBJum:93Zth8HYuP975L6JTO6QzXm3kY2HobIPxS-Z81RuqQQ",
+      "expire_date": "2023-12-21T19:20:04.871Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "lhmrfqpcsbhf1mmnwq9qbz4qfdy8u6my",
+    "fields": {
+      "session_data": ".eJxVjDsOwjAQBe_iGln-rLM2JX3OYK0_wQFkS3FSIe5OIqWA9s3MezNP21r81vPi58SuTLLL7xYoPnM9QHpQvTceW12XOfBD4SftfGwpv26n-3dQqJe9VlYBghMGNGmXk0UEJSbE5EhIJDBRGSEnFwiEUAOgdjtKoGzGATT7fAGfpzYs:1rXRxS:pnjkuty-j72KcBD783OUuwt_g3T6sOS541BY1NcU9Hc",
+      "expire_date": "2024-02-20T20:22:18.089Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "p18d69hhx00ezglsnfqopzfil10octyh",
+    "fields": {
+      "session_data": ".eJxVjDsOwjAQBe_iGln-rLM2JX3OYK0_wQFkS3FSIe5OIqWA9s3MezNP21r81vPi58SuTLLL7xYoPnM9QHpQvTceW12XOfBD4SftfGwpv26n-3dQqJe9VlYBghMGNGmXk0UEJSbE5EhIJDBRGSEnFwiEUAOgdjtKoGzGATT7fAGfpzYs:1rGsDb:c3BIfb1rCrRhKIlfbUd9X6AE_V0OuXlY8ByTvjpXEak",
+      "expire_date": "2024-01-06T02:58:27.940Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "r4l11fivmpp5klvpjt16ki13vdlxvivc",
+    "fields": {
+      "session_data": ".eJxVjDsOwjAQBe_iGln-rLM2JX3OYK0_wQFkS3FSIe5OIqWA9s3MezNP21r81vPi58SuTLLL7xYoPnM9QHpQvTceW12XOfBD4SftfGwpv26n-3dQqJe9VlYBghMGNGmXk0UEJSbE5EhIJDBRGSEnFwiEUAOgdjtKoGzGATT7fAGfpzYs:1r6EyE:VP67UkSTw1X5ZEpCC5FoyusMpDecZvwldjVNVgm-Rgk",
+      "expire_date": "2023-12-07T19:02:38.594Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "xjbnxkgvuqmznq2u5r0p5e7a7941pa1t",
+    "fields": {
+      "session_data": ".eJxVjDsOwjAQBe_iGln-rLM2JX3OYK0_wQFkS3FSIe5OIqWA9s3MezNP21r81vPi58SuTLLL7xYoPnM9QHpQvTceW12XOfBD4SftfGwpv26n-3dQqJe9VlYBghMGNGmXk0UEJSbE5EhIJDBRGSEnFwiEUAOgdjtKoGzGATT7fAGfpzYs:1rOTdz:tGVUTw6LoXMhHfHA_rUnDL8ZWhwYvsEutj8pc4EDHH0",
+      "expire_date": "2024-01-27T02:21:07.217Z"
+    }
+  },
+  {
+    "model": "coffee.coffee",
+    "pk": 3,
+    "fields": {
+      "name": "Caf� Santos",
+      "tipo": "bean",
+      "description": "coffee from brasil",
+      "origyn": "Brasil",
+      "intensity": "6/10",
+      "price": "6.00",
+      "image": "https://res.cloudinary.com/dwrepuhjc/image/upload/v1704394810/DALL_E_2024-01-04_19.49.48_-_photograph_of_a_package_of_Brasil_coffee_black_background_vqzu8q.png"
+    }
+  },
+  {
+    "model": "coffee.coffee",
+    "pk": 4,
+    "fields": {
+      "name": "Mocha Yemen",
+      "tipo": "bean",
+      "description": "cafe de cuba",
+      "origyn": "Yemen",
+      "intensity": "8/10",
+      "price": "8.00",
+      "image": "https://res.cloudinary.com/dwrepuhjc/image/upload/v1704395576/DALL_E_2024-01-04_20.07.16_-_photograph_of_a_package_of_yemen_coffee_black_background_iesdw6.png"
+    }
+  },
+  {
+    "model": "coffee.coffee",
+    "pk": 9,
+    "fields": {
+      "name": "Excelso",
+      "tipo": "bean",
+      "description": "coffe from colombia",
+      "origyn": "Colombia",
+      "intensity": "6/10",
+      "price": "6.00",
+      "image": "https://res.cloudinary.com/dwrepuhjc/image/upload/v1704394717/DALL_E_2024-01-04_19.48.40_-_photograph_of_a_package_of_Colombian_coffee_black_background_yckgkp.png"
+    }
+  },
+  {
+    "model": "coffee.coffee",
+    "pk": 10,
+    "fields": {
+      "name": "Yirgacheffe",
+      "tipo": "bean",
+      "description": "etipian coffee",
+      "origyn": "Etiopia",
+      "intensity": "7/10",
+      "price": "8.00",
+      "image": "https://res.cloudinary.com/dwrepuhjc/image/upload/v1704395606/DALL_E_2024-01-04_20.00.17_-_photograph_of_a_package_of_italian_coffee_black_background_eyp9xt.png"
+    }
+  },
+  {
+    "model": "coffee.coffee",
+    "pk": 11,
+    "fields": {
+      "name": "Coffea canephora",
+      "tipo": "bean",
+      "description": "nicaragua",
+      "origyn": "Vietnan",
+      "intensity": "9/10",
+      "price": "5.00",
+      "image": "https://res.cloudinary.com/dwrepuhjc/image/upload/v1704394804/DALL_E_2024-01-04_19.50.40_-_photograph_of_a_package_of_vietnam_coffee_black_background_hmpjrg.png"
+    }
+  },
+  {
+    "model": "coffee.coffee",
+    "pk": 12,
+    "fields": {
+      "name": "Antigua",
+      "tipo": "bean",
+      "description": "",
+      "origyn": "Guatemala",
+      "intensity": "6/10",
+      "price": "7.00",
+      "image": "https://res.cloudinary.com/dwrepuhjc/image/upload/v1704395577/DALL_E_2024-01-04_20.05.59_-_photograph_of_a_package_of_guatemala_coffee_black_background_rfkibg.png"
+    }
+  },
+  {
+    "model": "coffee.coffee",
+    "pk": 13,
+    "fields": {
+      "name": "Altura Chiapas",
+      "tipo": "bean",
+      "description": "",
+      "origyn": "Mexico",
+      "intensity": "7/10",
+      "price": "6.00",
+      "image": "https://res.cloudinary.com/dwrepuhjc/image/upload/v1704395578/DALL_E_2024-01-04_20.06.30_-_photograph_of_a_package_of_mexico_coffee_black_background_h8cmfe.png"
+    }
+  },
+  {
+    "model": "coffee.coffee",
+    "pk": 14,
+    "fields": {
+      "name": "Kenya AA",
+      "tipo": "bean",
+      "description": "",
+      "origyn": "Kenia",
+      "intensity": "8/10",
+      "price": "10.00",
+      "image": "https://res.cloudinary.com/dwrepuhjc/image/upload/v1704395580/DALL_E_2024-01-04_20.09.24_-_photograph_of_a_package_of_kenia_coffee_black_background_kw9bay.png"
+    }
+  },
+  {
+    "model": "coffee.coffee",
+    "pk": 15,
+    "fields": {
+      "name": "Geisha",
+      "tipo": "bean",
+      "description": "",
+      "origyn": "Panama",
+      "intensity": "5/10",
+      "price": "8.00",
+      "image": "https://res.cloudinary.com/dwrepuhjc/image/upload/v1704395581/DALL_E_2024-01-04_20.08.45_-_photograph_of_a_package_of_panama_coffee_black_background_tegyfb.png"
+    }
+  },
+  {
+    "model": "coffee.coffee",
+    "pk": 16,
+    "fields": {
+      "name": "Blue Mountain Coffee",
+      "tipo": "bean",
+      "description": "",
+      "origyn": "Jamaica",
+      "intensity": "7/10",
+      "price": "12.00",
+      "image": "https://res.cloudinary.com/dwrepuhjc/image/upload/v1704395583/DALL_E_2024-01-04_20.04.39_-_photograph_of_a_package_of_jamaica_coffee_black_background_ulvhzb.png"
+    }
+  },
+  {
+    "model": "coffee.coffee",
+    "pk": 17,
+    "fields": {
+      "name": "Tarraz�",
+      "tipo": "bean",
+      "description": "",
+      "origyn": "Costa Rica",
+      "intensity": "7/10",
+      "price": "9.00",
+      "image": "https://res.cloudinary.com/dwrepuhjc/image/upload/v1704395600/DALL_E_2024-01-04_20.02.05_-_photograph_of_a_package_of_costa_rica_coffee_black_background_y3dddw.png"
+    }
+  },
+  {
+    "model": "coffee.coffee",
+    "pk": 18,
+    "fields": {
+      "name": "Excelso",
+      "tipo": "cap",
+      "description": "",
+      "origyn": "Colombia",
+      "intensity": "6/10",
+      "price": "10.50",
+      "image": "https://res.cloudinary.com/dwrepuhjc/image/upload/v1704427347/descarga_rg7lve.jpg"
+    }
+  },
+  {
+    "model": "coffee.coffee",
+    "pk": 19,
+    "fields": {
+      "name": "Caf� Santos",
+      "tipo": "cap",
+      "description": "",
+      "origyn": "Brasil",
+      "intensity": "6/10",
+      "price": "12.00",
+      "image": "https://res.cloudinary.com/dwrepuhjc/image/upload/v1704427347/descarga_rg7lve.jpg"
+    }
+  },
+  {
+    "model": "coffee.coffee",
+    "pk": 20,
+    "fields": {
+      "name": "Antigua",
+      "tipo": "cap",
+      "description": "",
+      "origyn": "Guatemala",
+      "intensity": "6/10",
+      "price": "10.00",
+      "image": "https://res.cloudinary.com/dwrepuhjc/image/upload/v1704427347/descarga_rg7lve.jpg"
+    }
+  },
+  {
+    "model": "coffee.coffee",
+    "pk": 21,
+    "fields": {
+      "name": "Altura Chiapas",
+      "tipo": "cap",
+      "description": "",
+      "origyn": "Mexico",
+      "intensity": "7/10",
+      "price": "11.00",
+      "image": "https://res.cloudinary.com/dwrepuhjc/image/upload/v1704427347/descarga_rg7lve.jpg"
+    }
+  },
+  {
+    "model": "coffee.coffee",
+    "pk": 22,
+    "fields": {
+      "name": "Geisha",
+      "tipo": "cap",
+      "description": "",
+      "origyn": "Panama",
+      "intensity": "5/10",
+      "price": "9.00",
+      "image": "https://res.cloudinary.com/dwrepuhjc/image/upload/v1704427347/descarga_rg7lve.jpg"
+    }
+  },
+  {
+    "model": "coffee.coffee",
+    "pk": 23,
+    "fields": {
+      "name": "Blue Mountain Coffee",
+      "tipo": "cap",
+      "description": "",
+      "origyn": "Jamaica",
+      "intensity": "7/10",
+      "price": "12.50",
+      "image": "https://res.cloudinary.com/dwrepuhjc/image/upload/v1704427347/descarga_rg7lve.jpg"
+    }
+  }
+]

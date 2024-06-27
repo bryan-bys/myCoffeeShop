@@ -29,9 +29,9 @@ DEBUG = 'RENDER' not in os.environ
 
 ALLOWED_HOSTS = []
 
-RENDER_EXTERNAL_HOSTNAME = os.environ.get('RENDER_EXTERNAL_HOSTNAME')
-if RENDER_EXTERNAL_HOSTNAME:
-    ALLOWED_HOSTS.append(RENDER_EXTERNAL_HOSTNAME)
+# RENDER_EXTERNAL_HOSTNAME = os.environ.get('RENDER_EXTERNAL_HOSTNAME')
+# if RENDER_EXTERNAL_HOSTNAME:
+#     ALLOWED_HOSTS.append(RENDER_EXTERNAL_HOSTNAME)
 
 
 # Application definition
@@ -86,12 +86,25 @@ WSGI_APPLICATION = 'core.wsgi.application'
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
 
 DATABASES = {
- 'default': dj_database_url.config(
-        default='postgresql://postgres:postgres@localhost:5432/mysite',
+    # 'default': {
+    #     'ENGINE': 'django.db.backends.sqlite3',
+    #     'NAME': BASE_DIR / 'db.sqlite3',
+    # },
+    'default': dj_database_url.config(
+        default='postgresql://mycoffeeshop_user:zFbNXjQn0gfThXufHWHpmymZqAjLR4nl@dpg-cpu2oqt2ng1s73ea2c90-a.oregon-postgres.render.com/mycoffeeshop',
         conn_max_age=600
-    )
-}
+    ),
 
+
+    #  'default': {
+    #     'ENGINE': 'django.db.backends.postgresql',
+    #     'NAME': 'mycoffeeshop',
+    #     'USER': 'mycoffeeshop_user',
+    #     'PASSWORD': 'zFbNXjQn0gfThXufHWHpmymZqAjLR4nl',
+    #     'HOST': 'dpg-cpu2oqt2ng1s73ea2c90-a.oregon-postgres.render.com',
+    #     'PORT': '5432',
+    # }
+}
 
 # Password validation
 # https://docs.djangoproject.com/en/4.2/ref/settings/#auth-password-validators
