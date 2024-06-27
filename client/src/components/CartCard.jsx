@@ -1,5 +1,4 @@
 import { useState, useEffect } from "react";
-import { deleteItem } from "../api/coffee.api";
 
 const CartCard = ({ data, handleDelete, setTotalPrice, itemCartId }) => {
   useEffect(() => {

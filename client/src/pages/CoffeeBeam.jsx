@@ -1,7 +1,7 @@
 import React from "react";
 import CoffeeList from "../components/CoffeeList";
 import BackgroundVideo from "../components/BackgroundVideo";
-import Main from "../components/main";
+import Main from "../components/Main";
 
 const CoffeeBeam = () => {
   const beanH2 = "CAFE EN GRANO",

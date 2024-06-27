@@ -1,6 +1,6 @@
 import BackgroundVideo from "../components/BackgroundVideo";
 import CoffeeList from "../components/CoffeeList";
-import Main from "../components/main";
+import Main from "../components/Main";
 
 const CoffeeCaps = () => {
   const capsH2 = "CAFE EN CAPSULAS",
