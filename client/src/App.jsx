@@ -35,7 +35,7 @@ export function App() {
 
     loadCoffee();
     setUpdateCart(false);
-  }, [updateCart]);
+  }, [updateCart, visible]);
 
   return (
     <>
