@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { AddToCart } from "../api/coffee.api";
 
-const AddToCartBtn = ({ data, handleRender, setUpdateCart }) => {
+const AddToCartBtn = ({ data, handleRender }) => {
   const [quantity, setQuantity] = useState(1);
   // const [getCart, setGetCart] = useState(second);
 

@@ -1,6 +1,9 @@
 import AddToCartBtn from "./AddToCartBtn";
 
-export function CoffeeBeamCard({ coffee }) {
+export function CoffeeBeamCard({ coffee, setUpdateCart }) {
+  const handleRender = () => {
+    setUpdateCart(true);
+  };
   return (
     <>
       {coffee.tipo == "bean" ? (
@@ -10,7 +13,7 @@ export function CoffeeBeamCard({ coffee }) {
           <p>Origen: {coffee.origyn}</p>
           <p>Intensidad: {coffee.intensity}</p>
           <p>€ {coffee.price} - 500g</p>
-          <AddToCartBtn data={coffee} />
+          <AddToCartBtn handleRender={handleRender} data={coffee} />
         </div>
       ) : null}
     </>

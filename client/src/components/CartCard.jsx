@@ -1,13 +1,13 @@
 import { useState, useEffect } from "react";
 
-const CartCard = ({ data, handleDelete, setTotalPrice, itemCartId }) => {
+const CartCard = ({ data, handleDelete, setTotalPrice, totalPrice }) => {
   useEffect(() => {
     const res = data.map((data) => data.price * data.quantity),
       suma = res.reduce((acumulador, numero) => acumulador + numero, 0);
 
     console.log(suma);
     setTotalPrice(suma);
-  }, []);
+  }, [data]);
 
   return (
     <>

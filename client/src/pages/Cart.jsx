@@ -27,6 +27,7 @@ const Cart = ({ visible, closeCart, data, itemCartId, setUpdateCart }) => {
             X
           </button>
           <CartCard
+            totalPrice={totalPrice}
             setTotalPrice={setTotalPrice}
             handleDelete={handleDelete}
             data={data}

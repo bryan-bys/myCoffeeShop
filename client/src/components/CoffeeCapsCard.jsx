@@ -1,6 +1,10 @@
 import AddToCartBtn from "./AddToCartBtn";
 
-const CoffeeCapsCard = ({ coffee }) => {
+const CoffeeCapsCard = ({ coffee, setUpdateCart }) => {
+  const handleRender = () => {
+    setUpdateCart(true);
+  };
+
   return (
     <>
       {coffee.tipo == "cap" ? (
@@ -10,7 +14,7 @@ const CoffeeCapsCard = ({ coffee }) => {
           <p>Origen: {coffee.origyn}</p>
           <p>Intensidad. {coffee.intensity}</p>
           <p>€ {coffee.price} - 30 Capsulas</p>
-          <AddToCartBtn data={coffee} />
+          <AddToCartBtn handleRender={handleRender} data={coffee} />
         </div>
       ) : null}
     </>

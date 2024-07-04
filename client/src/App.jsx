@@ -23,14 +23,20 @@ export function App() {
   const [cartData, setCartData] = useState([]);
   const [updateCart, setUpdateCart] = useState(false);
   const [itemCartId, setItemCartId] = useState();
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     async function loadCoffee() {
-      const res1 = await getAllCoffee();
-      const res2 = await getCart();
-
-      setHomeCoffeeData(res1.data);
-      setCartData(res2.data);
+      try {
+        const res1 = await getAllCoffee();
+        const res2 = await getCart();
+        setHomeCoffeeData(res1.data);
+        setCartData(res2.data);
+      } catch (err) {
+        console.log(err);
+      } finally {
+        setLoading(false);
+      }
     }
 
     loadCoffee();
@@ -80,12 +86,22 @@ export function App() {
           </nav>
 
           <Routes>
-            <Route path="/coffeeCaps" element={<CoffeeCaps />} />
-            <Route path="/coffeeBeam" element={<CoffeeBeam />} />
+            <Route
+              path="/coffeeCaps"
+              element={<CoffeeCaps setUpdateCart={setUpdateCart} />}
+            />
+            <Route
+              path="/coffeeBeam"
+              element={<CoffeeBeam setUpdateCart={setUpdateCart} />}
+            />
             <Route
               path="/"
               element={
-                <Home setUpdateCart={setUpdateCart} data={homeCoffeeData} />
+                <Home
+                  loading={loading}
+                  setUpdateCart={setUpdateCart}
+                  data={homeCoffeeData}
+                />
               }
             />
           </Routes>

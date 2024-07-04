@@ -1,8 +1,9 @@
 import CoffeeCard from "../components/CoffeeCard";
 import Main from "../components/Main";
 import BackgroundVideo from "../components/BackgroundVideo";
+import Loader from "../components/Loader";
 
-export default function Home({ data, setUpdateCart }) {
+export default function Home({ data, setUpdateCart, loading }) {
   const homeH2 = "PRODUCTOS",
     homeP1 = `BIENVENIDO AL RINCON `,
     homeP2 = `PARA LOS AMANTES DEL CAFE`;
@@ -11,7 +12,7 @@ export default function Home({ data, setUpdateCart }) {
     <>
       <BackgroundVideo />
       <Main h2Text={homeH2} p1Text={homeP1} p2Text={homeP2} />
-      <CoffeeCard setUpdateCart={setUpdateCart} data={data} />
+      <CoffeeCard loading={loading} setUpdateCart={setUpdateCart} data={data} />
     </>
   );
 }

@@ -12,6 +12,7 @@ const BackgroundVideo = () => {
         muted
         loop
         className="coffee-video"
+        playsInline
       ></video>
     </>
   );
