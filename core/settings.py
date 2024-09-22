@@ -98,10 +98,10 @@ DATABASES = {
 
     #  'default': {
     #     'ENGINE': 'django.db.backends.postgresql',
-    #     'NAME': 'mycoffeeshop',
-    #     'USER': 'mycoffeeshop_user',
-    #     'PASSWORD': 'zFbNXjQn0gfThXufHWHpmymZqAjLR4nl',
-    #     'HOST': 'dpg-cpu2oqt2ng1s73ea2c90-a.oregon-postgres.render.com',
+    #     'NAME': 'mycoffeeshop_database_x8e7',
+    #     'USER': 'mycoffeeshop_database_x8e7_user',
+    #     'PASSWORD': 'w0KSFPMkBxwyzMbb52haKmIvzRbB6QBM',
+    #     'HOST': 'dpg-cro7pn68ii6s73f3vmlg-a.oregon-postgres.render.com',
     #     'PORT': '5432',
     # }
 }

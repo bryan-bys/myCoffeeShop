@@ -8,6 +8,7 @@ import Loader from "./Loader";
 const CoffeeList = ({ setUpdateCart }) => {
   const [coffeeData, setCoffeeData] = useState([]);
   const [loading, setLoading] = useState(true);
+
   useEffect(() => {
     async function loadCoffee() {
       try {

@@ -252,6 +252,7 @@ nav button i {
   width: 50%;
   background-color: salmon;
   border: solid black;
+  cursor: pointer;
 }
 
 .quantity {

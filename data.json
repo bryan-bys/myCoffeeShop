@@ -2128,8 +2128,8 @@
     "model": "auth.user",
     "pk": 1,
     "fields": {
-      "password": "pbkdf2_sha256$600000$PqSao766hd9PDxs4FvTZoa$i80GAmGzDEm1nd5lefxpGEt9zxv8PSVnweDYwwJV/rE=",
-      "last_login": "2024-02-19T18:01:03.026Z",
+      "password": "pbkdf2_sha256$600000$ZekRsguJUXc8xZQHxldaCx$Uik9QRz3phyQOFZJMHyGrDvms4wxBaETLu1PHiVWi7s=",
+      "last_login": "2024-06-26T16:26:31.697Z",
       "is_superuser": true,
       "username": "bryan",
       "first_name": "",
@@ -2196,6 +2196,14 @@
     "model": "contenttypes.contenttype",
     "pk": 11,
     "fields": { "app_label": "coffee", "model": "cartitem" }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "3uqild5x6oi39x8cdalwfvltoehke89p",
+    "fields": {
+      "session_data": ".eJxVjM0OwiAQhN-FsyGw_CgevfcZyLILUjU0Ke3J-O62SQ96nPm-mbeIuC41rj3PcWRxFVqcfruE9MxtB_zAdp8kTW2ZxyR3RR60y2Hi_Lod7t9BxV63tcdwJo_ZF4NaaTTkXVZgEqDfYlCQoCBopmAtFUdMKVi4eFOCZsfi8wXnFzgW:1sMVTb:Ygqbq6q7Eq-fjJLuMhu5wTXheWT3vtcdM-UKbDHO6CU",
+      "expire_date": "2024-07-10T16:26:31.699Z"
+    }
   },
   {
     "model": "sessions.session",

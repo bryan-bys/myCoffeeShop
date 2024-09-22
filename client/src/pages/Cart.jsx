@@ -5,13 +5,13 @@ import { deleteItem } from "../api/coffee.api";
 const Cart = ({ visible, closeCart, data, itemCartId, setUpdateCart }) => {
   const [totalPrice, setTotalPrice] = useState(0);
 
-  const handleDelete = (data) => {
+  const handleDelete = async (data) => {
     const confirmacion = window.confirm(
       "Esta seguro de eliminar este elemento del carrito"
     );
 
     if (confirmacion) {
-      deleteItem(data);
+      const res = await deleteItem(data);
       setUpdateCart(true);
     } else {
       setUpdateCart(true);

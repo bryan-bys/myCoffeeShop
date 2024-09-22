@@ -7,12 +7,12 @@ const AddToCartBtn = ({ data, handleRender }) => {
 
   const handleAddToCart = async () => {
     handleRender();
-
     try {
       const res = await AddToCart({
         coffee: data.id,
         quantity: quantity,
       });
+      alert("agregado al carrito ");
       console.log(res);
     } catch (error) {
       console.error("Error al agregar al carrito:", error);
@@ -35,7 +35,7 @@ const AddToCartBtn = ({ data, handleRender }) => {
             handleAddToCart();
           }}
         >
-          <i className="fa-solid fa-bag-shopping"></i>
+          <i className="fa-solid fa-bag-shopping"> +</i>
         </button>
       </div>
     </>
